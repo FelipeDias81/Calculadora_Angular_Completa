@@ -1,0 +1,9 @@
+<form>
+    <input type="number" name="num1" [(ngModel)]="num1">
+    <input type="number" name="num2" [(ngModel)]="num2">
+    <button type="button" (click)="operacao('+')">Somar</button>
+    <button type="button" (click)="operacao('-')">Subtrair</button>
+    <button type="button" (click)="operacao('*')">Multiplicar</button>
+    <button type="button" (click)="operacao('/')">Dividir</button>
+    <input type="number" name="result" [(ngModel)]="result" disabled>
+</form>
